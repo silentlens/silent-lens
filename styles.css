@@ -138,6 +138,8 @@ details p { max-width: 740px; padding: 0 46px 21px 0; margin: 0; color: var(--mu
 .work-detail:nth-child(even) { grid-template-columns: .85fr 1.15fr; }
 .work-detail:nth-child(even) .work-detail-media { order: 2; }
 .work-detail-media img { width: 100%; aspect-ratio: 1.25 / 1; object-fit: cover; }
+.video-frame { width: min(100%, 390px); margin-inline: auto; aspect-ratio: 9 / 16; overflow: hidden; background: var(--ink); }
+.video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
 .work-detail-copy h2 { margin-bottom: 15px; font-size: clamp(2.2rem, 4vw, 4.4rem); }
 .work-detail-copy .small { margin-bottom: 20px; }
 .note-box { padding: 18px 20px; margin-top: 28px; border-left: 2px solid var(--gold); background: rgba(255,255,255,.25); color: var(--muted); font-size: .86rem; }

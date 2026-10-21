@@ -1,19 +1,23 @@
 const projectData = [
   {
-    title: 'Project Title Placeholder',
-    category: 'Cinematic Product Film',
-    description: 'Replace this speculative project description with the approved title, description, and video link for the first real work sample.',
+    id: 'project-one',
+    title: 'EMBER — Autumn Magic',
+    category: 'Luxury Food & Beverage · Concept Ad',
+    description: 'A cinematic dark chocolate advertising concept with a warm autumn atmosphere.',
     image: 'assets/project-scent.svg',
-    videoUrl: '',
-    platform: ''
+    videoUrl: 'https://youtube.com/shorts/UniMApQGATE?feature=share',
+    embedUrl: 'https://www.youtube.com/embed/UniMApQGATE?rel=0',
+    platform: 'YouTube'
   },
   {
-    title: 'Project Title Placeholder',
-    category: 'Performance Creative',
-    description: 'Replace this speculative project description with the approved title, description, and video link for the second real work sample.',
+    id: 'project-two',
+    title: 'VAYORA — Own the Ground',
+    category: 'Fashion & Footwear · Concept Ad',
+    description: 'A premium sneaker advertising concept focused on confident, energetic fashion storytelling.',
     image: 'assets/project-orbit.svg',
-    videoUrl: '',
-    platform: ''
+    videoUrl: 'https://youtube.com/shorts/r35Z1fL89jg?feature=share',
+    embedUrl: 'https://www.youtube.com/embed/r35Z1fL89jg?rel=0',
+    platform: 'YouTube'
   }
 ];
 
