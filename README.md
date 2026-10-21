@@ -14,9 +14,11 @@ Then open `http://localhost:4173/`.
 
 ## Update portfolio projects
 
-Edit the `projectData` array at the top of `script.js` when adding or maintaining portfolio entries. The current entries are **EMBER — Autumn Magic** and **VAYORA — Own the Ground**, both clearly labelled **Concept Project** throughout the site. Keep `id`, `title`, `category`, `description`, `image`, `videoUrl`, `embedUrl`, and `platform` together for each entry. Update the matching card in `index.html` and detailed embed in `work.html`, and keep the `alt` text accurate for each image.
+Edit the `projectData` array at the top of `script.js` when adding or maintaining portfolio entries. The current entries are **EMBER — Autumn Magic** and **VAYORA — Own the Ground**, both clearly labelled **Independent Concept Project** throughout the site. Keep `id`, `title`, `category`, `description`, `image`, `videoUrl`, `embedUrl`, and `platform` together for each entry. Update the matching card in `index.html` and detailed embed in `work.html`, and keep the `alt` text accurate for each image.
 
 If a video is on YouTube, add its URL and a visible link or embed only after the correct link is supplied. Do not add invented client names, performance metrics, reviews, or results.
+
+The homepage currently uses locally stored official YouTube thumbnails at `assets/ember-thumbnail.jpg` and `assets/vayora-thumbnail.jpg`, downloaded from YouTube's thumbnail endpoint for the supplied video IDs. Replace them only with an accurate still or official thumbnail for the matching video; do not describe a representative image as a video frame unless it was actually extracted from that video.
 
 ## Update packages and services
 

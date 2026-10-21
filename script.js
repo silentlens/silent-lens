@@ -4,7 +4,9 @@ const projectData = [
     title: 'EMBER — Autumn Magic',
     category: 'Luxury Food & Beverage · Concept Ad',
     description: 'A cinematic dark chocolate advertising concept with a warm autumn atmosphere.',
-    image: 'assets/project-scent.svg',
+    label: 'Independent Concept Project',
+    cta: 'Watch the Film',
+    image: 'assets/ember-thumbnail.jpg',
     videoUrl: 'https://youtube.com/shorts/UniMApQGATE?feature=share',
     embedUrl: 'https://www.youtube.com/embed/UniMApQGATE?rel=0',
     platform: 'YouTube'
@@ -14,7 +16,10 @@ const projectData = [
     title: 'VAYORA — Own the Ground',
     category: 'Fashion & Footwear · Concept Ad',
     description: 'A premium sneaker advertising concept focused on confident, energetic fashion storytelling.',
-    image: 'assets/project-orbit.svg',
+    tagline: 'Your Energy. Your Rules.',
+    label: 'Independent Concept Project',
+    cta: 'Watch the Film',
+    image: 'assets/vayora-thumbnail.jpg',
     videoUrl: 'https://youtube.com/shorts/r35Z1fL89jg?feature=share',
     embedUrl: 'https://www.youtube.com/embed/r35Z1fL89jg?rel=0',
     platform: 'YouTube'
