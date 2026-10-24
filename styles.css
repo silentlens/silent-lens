@@ -62,7 +62,7 @@ h3 { font: 400 clamp(1.4rem, 2.8vw, 2.1rem)/1.1 var(--serif); margin-bottom: 12p
 .hero-note::before { content: ''; width: 42px; height: 1px; background: var(--gold); }
 .hero-visual { position: relative; }
 .hero-visual::before { content: ''; position: absolute; width: 76%; aspect-ratio: 1; top: -12%; right: -12%; border: 1px solid rgba(180, 152, 104, .45); border-radius: 50%; }
-.hero-visual img { position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; box-shadow: var(--shadow); }
+.hero-visual img { position: relative; width: 100%; height: auto; aspect-ratio: 848 / 1264; object-fit: contain; background: var(--cream); box-shadow: var(--shadow); }
 .visual-caption { display: flex; justify-content: space-between; gap: 16px; padding-top: 13px; color: var(--muted); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; }
 
 .split-heading { display: grid; grid-template-columns: .7fr 1.3fr; gap: 40px; align-items: end; margin-bottom: 48px; }
