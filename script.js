@@ -23,6 +23,17 @@ const projectData = [
     videoUrl: 'https://youtube.com/shorts/r35Z1fL89jg?feature=share',
     embedUrl: 'https://www.youtube.com/embed/r35Z1fL89jg?rel=0',
     platform: 'YouTube'
+  },
+  {
+    id: 'project-three',
+    title: 'Owala — Carry It Everywhere',
+    category: 'Lifestyle Product · Holiday Concept Ad',
+    description: 'A holiday lifestyle concept for Owala FreeSip bottles, moving from everyday routines to gift-ready product storytelling.',
+    label: 'Independent Concept Project',
+    cta: 'Watch the Film',
+    image: 'assets/owala-carry-it-everywhere-poster.jpg',
+    videoUrl: 'assets/owala-carry-it-everywhere.mp4',
+    platform: 'Self-hosted video'
   }
 ];
 
